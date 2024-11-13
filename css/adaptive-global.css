@@ -1,0 +1,243 @@
+@media (max-width: 1199.98px) {
+
+    /* NAVIGATION */ 
+    
+    .container{
+        width: 960px;
+    }
+
+    .nav_logo img{
+        /* width: 250px; */
+        height: 24px;
+    }
+
+    .nav_list{
+        gap: 40px!important;
+        margin-left: 70px!important;
+        margin-right: 65px!important;
+        width: 371px!important;
+    }
+    
+    .nav_link{
+        font-size: 14px!important;
+        line-height: 17px!important;
+    }
+
+    .nav_icon--insta{
+        width: 27px;
+        height: 27px;
+    }
+
+    .nav_icon--teleg{
+        width: 27px!important;
+        margin-left: 20px!important;
+        margin-right: 15px!important;
+    }
+
+    .nav_icon--slash{
+        height: 35px!important;
+    }
+
+
+
+    .nav_btn{
+        width: 95px!important;
+        height: 33px!important;
+        padding: 7.5px 15.5px!important; 
+        margin-left: 15px!important;  
+    }
+
+    .nav_btn-text{
+        font-weight: 700;
+        font-size: 12px!important;
+        line-height: 18px!important; 
+        color: #fff;
+    }
+
+/* NAVIGATION */
+}  
+@media (max-width: 991.98px) {
+
+/* NAVIGATION */
+    .container{
+        width: 720px;
+    }
+
+    .nav{
+        margin-top: 80px;
+    }
+
+    .nav_logo img{
+        display: flex;
+        width: 275px;
+        height: 25.35px;
+        margin-right: 175px;
+    }
+
+    .nav_list{
+        display: none;
+    }
+
+    .burger-menu{
+        display: flex;
+        width: 25px;
+        height: 23px;
+    }
+
+    .burger-menu_list{
+        visibility: visible;
+    }
+
+/* NAVIGATION */ 
+
+    .title{
+        font-size: 32px!important;
+        line-height: 39px!important;
+    }
+
+
+/* FOOTER */
+
+    .footer_text, .footer_sign{
+        font-size: 14px!important;
+        line-height: 17px!important;
+    }
+
+/* FOOTER */
+} 
+
+@media (max-width: 767.98px){
+ 
+ /* NAVIGATION */
+
+    .container{
+        width: 540px;
+    }
+
+    .nav{
+        margin-top: 60px;
+    }
+
+    .nav_logo img{
+        width: 230px;
+        height: 21px;
+        margin-right: 50px;
+    }
+
+    .nav_icon--insta{
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav_icon--teleg{
+        width: 25px!important;
+    }
+
+    .nav_icon--slash{
+        height: 35px!important;
+    }
+
+/* NAVIGATION */
+
+    .title{
+        font-size: 30px!important;
+        line-height: 37px!important;
+    }
+
+
+/* FOOTER */
+    .footer{
+        margin-top: 170px;
+        padding-bottom: 160px;
+    }
+    
+/* FOOTER */
+}
+
+@media (max-width: 575.98px){
+    
+/* NAVIGATION */    
+    
+    .container{
+        width: 340px;
+    }
+
+    .nav{
+        margin-top: 40px;
+    }
+    
+    .nav_logo img{
+        width: 220px;
+        height: 20px;
+        margin-right: 15px;
+    }
+
+    .nav_icon--insta{
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav_icon--teleg{
+        width: 20px!important;
+        margin-left: 10px!important;
+    }
+
+    .nav_icon--slash{
+        display: none;
+    }
+
+    .nav_btn{
+        display: none;
+    }
+
+/* NAVIGATION */
+
+    .title{
+        font-size: 25px!important;
+        line-height: 30px!important;
+    }
+
+
+    .burger-menu_list{
+        width: 310px;
+    }
+
+    
+/* FOOTER */
+    .footer{
+        margin-top: 150px;
+        padding-bottom: 140px;
+    }
+
+    .footer_text{
+        width: 300px!important;
+    }
+    
+/* FOOTER */
+}
+
+@media (max-width: 379.98px) {
+    
+ /* NAVIGATION */
+
+    .container{
+       width: 300px!important;
+   }
+
+   .nav{
+    margin-top: 40px;
+    }
+
+   .nav_icon--insta{
+    display: none;
+    }
+
+    .nav_icon--teleg{
+     display: none;
+    }
+
+    .burger-menu{
+        right: 30px;
+    }
+/* NAVIGATION */
+}

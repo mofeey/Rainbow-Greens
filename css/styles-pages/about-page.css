@@ -1,0 +1,160 @@
+.about-page{
+    margin-top: 140px;
+}
+
+.about-page_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.about-page_content-text1,.about-page_content-text2{
+    padding: 37px 45px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px 0 rgba(210, 223, 240, 0.3);
+    background: #eff1e8;
+    box-sizing: border-box;
+
+}
+
+.about-page_content-text1 p, .about-page_content-text2 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #424e44;
+    text-align: justify;
+}
+
+.about-page_content img{
+    max-width: 552px;
+}
+
+.about-page_features{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 18px 44px 18px 35px;
+    width: 260px;
+
+}
+
+.about-page_features-point{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+}
+
+.about-page_features-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+@media (max-width: 1199.98px) {
+    .container{
+        width: 960px;
+    }
+
+    .about-page{
+        margin-top: 100px;
+    }
+
+    .about-page_content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+        justify-content: center;
+        margin-top: 90px;
+    }
+
+    .about-page_features{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 18px 19.5px;
+        width: 220px;
+    
+    }
+
+}  
+
+@media (max-width: 991.98px) {
+
+    .container{
+        width: 720px;
+    }
+
+    .about-page{
+        margin-top: 80px;
+    }
+
+    .about-page_features{
+        width: 225px;
+    }
+
+    .about-page_content-text1 p, .about-page_content-text2 p {
+        font-size: 18px;
+    }
+
+    
+} 
+
+@media (max-width: 767.98px) {
+
+    .container{
+        width: 540px;
+    }
+
+    .about-page{
+        margin-top: 60px;
+    }
+
+    .about-page_content img{
+        max-width: 530px;
+    }
+
+    .about-page_content-text1 p, .about-page_content-text2 p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .container{
+        width: 340px;
+    }
+
+    .about-page{
+        margin-top: 40px;
+    }
+
+    .about-page_content{
+        margin-top: 50px;
+    }
+
+    .about-page_content img{
+        max-width: 340px;
+    }
+}
+@media (max-width: 379.98px) {
+
+    .container{
+       width: 300px!important;
+   }
+
+   .about-page_content img{
+    max-width: 300px;
+}
+
+.about-page_content-text1 p, .about-page_content-text2 p {
+    font-size: 14px;
+}
+
+}
+
+ /* CATALOG-pages */

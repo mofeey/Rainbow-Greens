@@ -1,0 +1,164 @@
+.course-page{
+    margin-top: 140px;
+}
+
+.course-page_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.course-page_content-text{
+    padding: 37px 45px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px 0 rgba(210, 223, 240, 0.3);
+    background: #eff1e8;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.course-page_content-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #424e44;
+    margin-bottom: 20px;
+
+}
+
+.course-page_content-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #424e44;
+    text-align: justify;
+}
+
+.course-page_content img{
+    max-width: 1140px;
+    border-radius: 20px;
+}
+
+.course-page_features{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 18px 44px 18px 35px;
+    width: 260px;
+
+}
+
+.course-page_features-point{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+}
+
+.course-page_features-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+@media (max-width: 1199.98px) {
+    .container{
+        width: 960px;
+    }
+
+    .course-page{
+        margin-top: 100px;
+    }
+
+    .course-page_content img{
+        max-width: 960px;
+    }
+
+    .course-page_content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+        justify-content: center;
+        margin-top: 90px;
+    }
+
+
+}  
+
+@media (max-width: 991.98px) {
+
+    .container{
+        width: 720px;
+    }
+
+    .course-page{
+        margin-top: 80px;
+    }
+    .course-page_content img{
+        max-width: 720px;
+    }
+
+    .course-page_content-text p {
+        font-size: 18px;
+    }
+
+    
+} 
+
+@media (max-width: 767.98px) {
+
+    .container{
+        width: 540px;
+    }
+
+    .course-page{
+        margin-top: 60px;
+    }
+
+    .course-page_content img{
+        max-width: 540px;
+    }
+
+    .course-page_content-text p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .container{
+        width: 340px;
+    }
+
+    .course-page{
+        margin-top: 40px;
+    }
+
+    .course-page_content{
+        margin-top: 50px;
+    }
+
+    .course-page_content img{
+        max-width: 340px;
+    }
+}
+@media (max-width: 379.98px) {
+
+    .container{
+       width: 300px!important;
+   }
+
+   .course-page_content img{
+    max-width: 300px;
+}
+
+.course-page_content-text1 p, .course-page_content-text2 p {
+    font-size: 14px;
+}
+
+}
+
+ /* CATALOG-pages */

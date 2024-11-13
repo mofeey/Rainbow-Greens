@@ -1,0 +1,284 @@
+ 
+ /* ABOUT */
+
+ .section-catalog{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog_title{
+    margin-bottom: 90px;
+}
+
+.catalog_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.catalog_card{
+    box-sizing: border-box;
+    padding: 15px 30px 30px 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background: #EFF1E8;
+    box-shadow: 0px 4px 15px rgba(210, 223, 240, 0.3);
+    border-radius: 20px;
+    transition: ease-in-out .2s;
+    opacity: 0;
+}
+
+.catalog_card:nth-child(3){
+    padding: 15px 15px 30px 15px;
+}
+
+.catalog_card img{
+    max-width: 252px;
+    mix-blend-mode: darken;
+}
+
+.catalog_card-img3{
+    max-height: 252px;
+    max-width: 100%!important;
+
+}
+
+.catalog_card .btn-green{
+    padding: 12px 104px;
+}
+
+.catalog_card p{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.catalog_card.show{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.catalog_card:hover{
+    box-shadow: 0px 8px 25px rgba(133, 147, 165, 0.3);
+}
+
+.catalog_card-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    line-height: 140%;
+    padding-top: 11px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1199.98px) {
+    .container{
+        width: 960px;
+    }
+
+    .section-catalog{
+        margin-top: 100px;
+    }
+    
+    .catalog_content{
+        gap: 30px;
+    }
+
+    .catalog_card{
+        padding: 15px 40px 30px 40px;
+    }
+    
+    .catalog_card:nth-child(3){
+        padding: 15px 8px 30px 8px;
+        width: 300px;
+    }
+
+    .catalog_card img{
+        max-width: 220px;
+    }
+
+    .catalog_card-img3{
+        max-height: 220px;
+    }
+
+    .catalog_card .btn-green{
+        padding: 6px 50.5px;
+    }
+
+    .catalog_card p{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 150%;
+        color: #fff;
+    }
+
+    .catalog_card.show{
+        opacity: 1;
+        transition: all 1s;
+    }
+
+    .catalog_card:hover{
+        box-shadow: 0px 6px 20px rgba(133, 147, 165, 0.3);
+    }
+
+    .catalog_card-title{
+        font-size: 24px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}  
+
+@media (max-width: 991.98px) {
+
+    .container{
+        width: 720px;
+    }
+
+    .section-catalog{
+        margin-top: 80px;
+    }
+    
+    .catalog_content{
+        gap: 20px;
+    }
+
+    .catalog_card{
+        padding: 15px 54px 30px 54px;
+    }
+    
+    .catalog_card:nth-child(3){
+        padding: 15px 20px 30px 20px;
+        width: 348px;
+    }
+
+    .catalog_card img{
+        max-width: 240px;
+    }
+
+    .catalog_card-img3{
+        max-height: 240px;
+    }
+
+    .catalog_card .btn-green{
+        padding: 10px 60px;
+    }
+
+    .catalog_card p{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 150%;
+        color: #fff;
+    }
+
+    .catalog_card.show{
+        opacity: 1;
+        transition: all 1s;
+    }
+
+    .catalog_card:hover{
+        box-shadow: 0px 6px 20px rgba(133, 147, 165, 0.3);
+    }
+
+    .catalog_card-title{
+        font-size: 22px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+} 
+
+@media (max-width: 767.98px) {
+
+    .container{
+        width: 540px;
+    }
+
+    .section-catalog{
+        margin-top: 60px;
+    }
+    
+    .catalog_content{
+        gap: 28px;
+    }
+
+    .catalog_card{
+        padding: 15px 28px 20px 28px;
+    }
+    
+    .catalog_card:nth-child(3){
+        padding: 15px 28px 20px 28px;
+        width: 256px;
+    }
+
+    .catalog_card img{
+        max-width: 200px;
+    }
+
+    .catalog_card-img3{
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .catalog_card .btn-green{
+        padding: 10px 60px;
+    }
+
+    .catalog_card p{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        color: #fff;
+    }
+
+    .catalog_card.show{
+        opacity: 1;
+        transition: all 1s;
+    }
+
+    .catalog_card:hover{
+        box-shadow: 0px 6px 20px rgba(133, 147, 165, 0.3);
+    }
+
+    .catalog_card-title{
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .container{
+        width: 340px;
+    }
+
+    .section-catalog{
+        margin-top: 40px;
+    }
+
+    .catalog_title {
+        margin-bottom: 50px;
+    }
+
+}
+@media (max-width: 379.98px) {
+    /* HEADER ADAPTIVE */
+   
+    .container{
+       width: 300px!important;
+   }
+}
+                /* CATALOG */
