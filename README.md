@@ -1,4 +1,4 @@
-# Project **Rainbow Greens** — Interier Furniture Store
+# Project **Rainbow Greens** — Business card website
 
 **Rainbow Greens** - a business card website to attract customers who want to purchase farm microgreens from a city farmer.
 
